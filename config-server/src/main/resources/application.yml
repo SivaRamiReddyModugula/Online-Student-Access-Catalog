@@ -4,8 +4,8 @@ spring:
   cloud:
     config:
       server:
-        native:
-          search-locations: file:../configs/
+        git:
+          uri: https://github.com/SivaRamiReddyModugula/Online-Student-Access-Catalog/configs
   profiles:
     active:
       - native
